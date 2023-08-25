@@ -37,7 +37,7 @@ struct LoginButtonView: View {
                 
             }
             .padding()
-            .frame(width: 300, height: 45)
+            .frame(width: 360, height: 44)
             .background(ButtonColor)
             .foregroundColor(ButtonForegroundColor)
             .cornerRadius(15)
