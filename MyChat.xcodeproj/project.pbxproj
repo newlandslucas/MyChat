@@ -16,6 +16,7 @@
 		94B9F50D2A98F59600FE892A /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F50C2A98F59600FE892A /* SeparatorView.swift */; };
 		94B9F5112A990BE600FE892A /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5102A990BE600FE892A /* RegisterEmailView.swift */; };
 		94B9F5132A990C4A00FE892A /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5122A990C4A00FE892A /* TextFieldModifier.swift */; };
+		94B9F5152A9913C400FE892A /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5142A9913C400FE892A /* CreateUsernameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		94B9F50C2A98F59600FE892A /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		94B9F5102A990BE600FE892A /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
 		94B9F5122A990C4A00FE892A /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		94B9F5142A9913C400FE892A /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				94B9F5092A98F46500FE892A /* Components */,
 				94B9F5072A98F22600FE892A /* HomeLoginView.swift */,
 				94B9F5102A990BE600FE892A /* RegisterEmailView.swift */,
+				94B9F5142A9913C400FE892A /* CreateUsernameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				94B9F5112A990BE600FE892A /* RegisterEmailView.swift in Sources */,
 				94B9F50B2A98F49800FE892A /* LoginButtonView.swift in Sources */,
+				94B9F5152A9913C400FE892A /* CreateUsernameView.swift in Sources */,
 				94B9F4F82A98F15C00FE892A /* ContentView.swift in Sources */,
 				94B9F50D2A98F59600FE892A /* SeparatorView.swift in Sources */,
 				94B9F5132A990C4A00FE892A /* TextFieldModifier.swift in Sources */,
