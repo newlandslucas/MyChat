@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		948529522A9E6B3300F74D55 /* CellChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948529512A9E6B3300F74D55 /* CellChatView.swift */; };
+		9485295E2A9E8E4700F74D55 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9485295D2A9E8E4700F74D55 /* MainView.swift */; };
+		948529612A9E8EB000F74D55 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948529602A9E8EB000F74D55 /* ProfileView.swift */; };
 		94B9F4F62A98F15C00FE892A /* MyChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F4F52A98F15C00FE892A /* MyChatApp.swift */; };
 		94B9F4F82A98F15C00FE892A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F4F72A98F15C00FE892A /* ContentView.swift */; };
 		94B9F4FA2A98F15F00FE892A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B9F4F92A98F15F00FE892A /* Assets.xcassets */; };
@@ -14,12 +17,16 @@
 		94B9F5082A98F22600FE892A /* HomeLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5072A98F22600FE892A /* HomeLoginView.swift */; };
 		94B9F50B2A98F49800FE892A /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F50A2A98F49800FE892A /* LoginButtonView.swift */; };
 		94B9F50D2A98F59600FE892A /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F50C2A98F59600FE892A /* SeparatorView.swift */; };
-		94B9F5112A990BE600FE892A /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5102A990BE600FE892A /* RegisterEmailView.swift */; };
 		94B9F5132A990C4A00FE892A /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5122A990C4A00FE892A /* TextFieldModifier.swift */; };
-		94B9F5152A9913C400FE892A /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5142A9913C400FE892A /* CreateUsernameView.swift */; };
+		94B9F51A2A9918F800FE892A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F5192A9918F800FE892A /* HomeView.swift */; };
+		94B9F51D2A991B4B00FE892A /* RoundedButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F51C2A991B4B00FE892A /* RoundedButtonsView.swift */; };
+		94B9F51F2A99218B00FE892A /* UserButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9F51E2A99218B00FE892A /* UserButtonRounded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		948529512A9E6B3300F74D55 /* CellChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellChatView.swift; sourceTree = "<group>"; };
+		9485295D2A9E8E4700F74D55 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		948529602A9E8EB000F74D55 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		94B9F4F22A98F15C00FE892A /* MyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B9F4F52A98F15C00FE892A /* MyChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatApp.swift; sourceTree = "<group>"; };
 		94B9F4F72A98F15C00FE892A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,9 +35,10 @@
 		94B9F5072A98F22600FE892A /* HomeLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoginView.swift; sourceTree = "<group>"; };
 		94B9F50A2A98F49800FE892A /* LoginButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		94B9F50C2A98F59600FE892A /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
-		94B9F5102A990BE600FE892A /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
 		94B9F5122A990C4A00FE892A /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
-		94B9F5142A9913C400FE892A /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		94B9F5192A9918F800FE892A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		94B9F51C2A991B4B00FE892A /* RoundedButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonsView.swift; sourceTree = "<group>"; };
+		94B9F51E2A99218B00FE892A /* UserButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserButtonRounded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9485295C2A9E8E3600F74D55 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9485295D2A9E8E4700F74D55 /* MainView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		9485295F2A9E8E8D00F74D55 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				948529602A9E8EB000F74D55 /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
 		94B9F4E92A98F15C00FE892A = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +115,9 @@
 		94B9F5042A98F1FA00FE892A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9485295F2A9E8E8D00F74D55 /* ProfileView */,
+				9485295C2A9E8E3600F74D55 /* Navigation */,
+				94B9F5182A9918E900FE892A /* Home */,
 				94B9F5052A98F1FF00FE892A /* Authentication */,
 			);
 			path = Core;
@@ -109,8 +136,6 @@
 			children = (
 				94B9F5092A98F46500FE892A /* Components */,
 				94B9F5072A98F22600FE892A /* HomeLoginView.swift */,
-				94B9F5102A990BE600FE892A /* RegisterEmailView.swift */,
-				94B9F5142A9913C400FE892A /* CreateUsernameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +148,25 @@
 				94B9F5122A990C4A00FE892A /* TextFieldModifier.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		94B9F5182A9918E900FE892A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				94B9F51B2A991B3600FE892A /* components */,
+				94B9F5192A9918F800FE892A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		94B9F51B2A991B3600FE892A /* components */ = {
+			isa = PBXGroup;
+			children = (
+				94B9F51C2A991B4B00FE892A /* RoundedButtonsView.swift */,
+				94B9F51E2A99218B00FE892A /* UserButtonRounded.swift */,
+				948529512A9E6B3300F74D55 /* CellChatView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,12 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B9F5112A990BE600FE892A /* RegisterEmailView.swift in Sources */,
 				94B9F50B2A98F49800FE892A /* LoginButtonView.swift in Sources */,
-				94B9F5152A9913C400FE892A /* CreateUsernameView.swift in Sources */,
+				94B9F51A2A9918F800FE892A /* HomeView.swift in Sources */,
 				94B9F4F82A98F15C00FE892A /* ContentView.swift in Sources */,
+				94B9F51F2A99218B00FE892A /* UserButtonRounded.swift in Sources */,
+				948529612A9E8EB000F74D55 /* ProfileView.swift in Sources */,
+				948529522A9E6B3300F74D55 /* CellChatView.swift in Sources */,
 				94B9F50D2A98F59600FE892A /* SeparatorView.swift in Sources */,
 				94B9F5132A990C4A00FE892A /* TextFieldModifier.swift in Sources */,
+				9485295E2A9E8E4700F74D55 /* MainView.swift in Sources */,
+				94B9F51D2A991B4B00FE892A /* RoundedButtonsView.swift in Sources */,
 				94B9F4F62A98F15C00FE892A /* MyChatApp.swift in Sources */,
 				94B9F5082A98F22600FE892A /* HomeLoginView.swift in Sources */,
 			);

@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct HomeLoginView: View {
-    @State var emailText = ""
-    @State var passwordText = ""
     var body: some View {
         NavigationStack {
             
@@ -17,86 +15,95 @@ struct HomeLoginView: View {
                 Spacer()
                 HStack {
                     VStack(alignment: .leading){
-                        Text("MY")
+                        Text("WATSON")
                             .fontWeight(.heavy)
                             .font(.system(size: 50))
                         Text("CHAT")
                             .fontWeight(.heavy)
                             .font(.system(size: 50))
                         
-                        Text("Connecting you with the world.")
+                        Text("Connecting you with the IBM world.")
+                            .font(.subheadline)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.gray)
+                        Text("Powered by Watson")
                             .font(.subheadline)
                             .foregroundColor(.gray)
                     }
-                    .fontWeight(.bold)
                     .font(.largeTitle)
+                    
+                 
                     
                     Spacer()
                 }
                 .padding()
+                
+                HStack {
+                    Spacer()
+                    Image("ibmImage")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 75, height: 75)
+                        .cornerRadius(25)
+                }
+                .padding(.horizontal, 30)
+                
                 Spacer()
                 
-                VStack(spacing: 0) {
-                    VStack {
-                        TextField("Enter your email", text: $emailText)
-                            .autocapitalization(.none)
-                            .modifier(TextFieldModifier())
-                            .keyboardType(.emailAddress)
-                        
-                        SecureField("Enter your password", text: $passwordText)
-                            .modifier(TextFieldModifier())
-                    }
-                  
+                VStack {
                     Button {
-                        print("Login")
+                        print("Login with W3ID")
                     } label: {
-                        Text("Login")
-                        .font(.subheadline)
-                        .fontWeight(.semibold)
+                        HStack(spacing: 10) {
+                            Image("ibmLogo")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                                .cornerRadius(15)
+                            Text("Continue with W3")
+                                .font(.subheadline)
+                                .fontWeight(.bold)
+                            
+                        }
                         .frame(width: 360, height: 44)
-                        .background(Color(.systemBlue))
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
+                        .background(Color(.white))
                         .cornerRadius(10)
                         }
-                        .padding(.vertical)
-                }
-                        
-                VStack(spacing: 15) {
                     
-                    LoginButtonView(ButtonColor: Color.black, ButtonForegroundColor: Color.white)
-                    
-                    HStack(alignment: .center) {
-                        SeparatorView()
-                        Text("or")
-                            .font(.footnote)
-                            .foregroundColor(.gray)
-                        SeparatorView()
-                    }
-                    
-                    NavigationLink {
-                        RegisterEmailView()
-                            .navigationBarBackButtonHidden(true)
+                    Button {
+                        print("Continue with email")
                     } label: {
-                        HStack {
-                            Text("Don't have an account?")
+                        HStack(spacing: 10) {
+                            Image(systemName: "envelope")
+                                .frame(width: 25, height: 25)
+                                .cornerRadius(15)
+                            Text("Continue with email")
+                                .font(.subheadline)
+                                .fontWeight(.bold)
                             
-                            Text("Sign up")
-                                .fontWeight(.semibold)
                         }
-                        .font(.footnote)
-                        .foregroundColor(Color(.systemBlue))
-                    }
-                    .padding(.vertical, 16)
-                    
+                        .frame(width: 360, height: 44)
+                        .background(Color(.white))
+                        .foregroundColor(.black)
+                        .cornerRadius(10)
+                        }
+
                 }
-                
-                
+                .frame(maxWidth: .infinity, maxHeight: 250)
+                .background(Color("ColorBlueIBM"))
+                .cornerRadius(28)
+                .ignoresSafeArea()
+
             }
             .frame(width: .infinity, height: .infinity)
-            .background(Color.white.opacity(0.8))
+            .background(Color(.systemBackground))
+            .foregroundColor(Color(.label))
+            .ignoresSafeArea()
         }
     }
 }
+
+
 
 #Preview {
     HomeLoginView()
